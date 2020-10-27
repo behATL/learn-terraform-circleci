@@ -4,6 +4,7 @@ terraform {
       source = "hashicorp/aws"
     }
   }
+
 backend "s3" {
    bucket = "7f8d354f-8c44-3832-043f-055cf31c353f-backend"
    key    = "terraform/webapp/terraform.tfstate"
